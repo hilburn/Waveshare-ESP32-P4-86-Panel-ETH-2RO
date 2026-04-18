@@ -1,6 +1,6 @@
-lights_amount: "4" # choise 1,2,3 or 4
+lights_amount: "1" # choise 1,2,3 or 4
 
-light_entity_1: "light.cbe_rgbcw_wi_fi_bluetooth_light"
+light_entity_1: "light.main_bedroom_lights"
 light_entity_2: "light.display01_backlight"
 light_entity_3: "light.lumi_v3_48df_light"
 light_entity_4: "light.office_rgbw_lights"

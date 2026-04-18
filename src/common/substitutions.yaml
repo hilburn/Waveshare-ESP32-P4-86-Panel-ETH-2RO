@@ -7,15 +7,15 @@ friendly_name: ESP32-P4-86-Panel-ETH-2RO-1
 # ENTITIES
 
 weather_entity:           "weather.home_assistant"
-temperature_entity:       "sensor.outside_temperature"
-humidity_entity:          "sensor.outside_humidity"
+temperature_entity:       "sensor.outside_temperature_temperature"
+humidity_entity:          "sensor.outside_temperature_humidity"
 
 
 
 # SETTINGS
 
-secondary_language:        "ru"
-timezone:                  "Europe/Moscow"
+secondary_language:        "en"
+timezone:                  "Europe/London"
 
 # ICONS
 

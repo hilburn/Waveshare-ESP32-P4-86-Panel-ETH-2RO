@@ -2,7 +2,8 @@ packages:
   audio: !include services/audio.yaml
   loading: !include common/pages/loading.yaml
   home: !include pages/home/home.yaml
-  light: !include pages/light/config.yaml
+  #light: !include pages/light/config.yaml
+  light: !include pages/light_old/config.yaml
   devices: !include common/pages/devices.yaml
   alarm_panel: !include pages/alarm_panel/config.yaml
   climate: !include pages/climate/climate.yaml
@@ -65,7 +66,7 @@ esphome:
 esp32:
   board: esp32-p4-evboard
   flash_size: 32Mb
-  cpu_frequency: 400MHz
+  cpu_frequency: 360MHz
   framework:
     type: esp-idf
     advanced:
